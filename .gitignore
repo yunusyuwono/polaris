@@ -1,0 +1,34 @@
+# Environment & Database Dumps
+*.sql
+*.sql.gz
+*.backup
+*.dump
+*.db
+/db/
+/sql/
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Local Logs & Sessions
+*.log
+session_cache/
+error_log
+
+# Uploads & Dynamic Generated Output
+/upload/*
+!/upload/.gitkeep
+/output/*
+!/output/.gitkeep
+/assets/laporan/*
+/assets/dokumentasi/*
+/assets/berkas/*
+/assets/images/user/*
+
+# IDE & OS Specific
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
